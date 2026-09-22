@@ -1,1 +1,0 @@
-void soma1 (int *ptr);
