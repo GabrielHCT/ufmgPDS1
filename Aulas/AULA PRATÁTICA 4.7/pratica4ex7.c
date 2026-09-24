@@ -8,7 +8,7 @@ float arredonda(float num) {
 
     if(!(decimal < 0.5))
         inteiro++;
-    else if (!(decimal < -0.5) && num < 0)
+    else if (!(decimal > -0.5) && num < 0)
         inteiro--;
 
     return inteiro;
