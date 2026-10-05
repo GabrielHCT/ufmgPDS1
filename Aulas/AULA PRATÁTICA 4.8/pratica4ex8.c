@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main() {
-    int valor, par = 0, impar = 0;
-
+void par_ou_impar(int valor) {
+    printf("Digite um numero inteiro: ");
     scanf("%d", &valor);
-
-    valor % 2 == 0 && valor > 0 ? par = 1 : par = 0;
-    valor % 2 == 1 && valor > 0 ? impar = 1 : impar = 0;
     
-    printf("")
-
-    return 0;
+    if(!(valor > 0))
+        printf("\nERRO: numero invalido.\n");
+    else if(valor & 1)
+        printf("\n%d e impar.\n", valor);
+    else
+        printf("\n%d e par.\n", valor);
 }
