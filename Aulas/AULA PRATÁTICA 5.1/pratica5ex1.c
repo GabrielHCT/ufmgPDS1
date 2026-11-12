@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int soma(int n) {
-    int soma = 0, i = n;
+    int soma = n, i = n;
 
     if(i == 1)
         return 1;
