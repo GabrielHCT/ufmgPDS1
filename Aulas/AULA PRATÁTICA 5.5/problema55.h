@@ -1,0 +1,1 @@
+int populacao(unsigned long num_hab_A, double taxa_anual_A, unsigned long num_hab_B, double taxa_anual_B);
